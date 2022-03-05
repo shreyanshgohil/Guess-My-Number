@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: #111;
+  color: #ddd;
+}
+.header-main {
+  border-bottom: 4px solid white;
+  height: 20rem;
+  position: relative;
+}
+button {
+  color: #111;
+  background-color: white;
+  border: none;
+  font-family: inherit;
+  padding: 2.2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+button:hover {
+  background-color: #ddd;
+}
+.again-start {
+  position: absolute;
+  left: 2%;
+  top: 15%;
+}
+.choose-select {
+  position: absolute;
+  top: 10%;
+  right: 3%;
+  font-size: 1.6rem;
+}
+h1 {
+  font-size: 4.2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+/* ********************* HERO ************* */
+.hero {
+  position: relative;
+}
+.tex-question {
+  font-size: 7rem;
+  color: #111;
+  background-color: #fff;
+  padding: 2rem 3rem;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  text-align: center;
+}
+.question {
+  display: inline;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.input-value {
+  display: block;
+  border: 4px solid white;
+  background-color: #111;
+  padding: 3rem 2rem;
+  margin-bottom: 5rem;
+  color: white;
+  font-family: inherit;
+  font-size: 3.6rem;
+  width: 25rem;
+}
+.input-value:focus {
+  /* border:none; */
+  outline: none;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+.text-gusseing {
+  padding-bottom: 12rem;
+  font-size: 1.8rem;
+}
+.total-score {
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+}
+
+.highscore {
+  font-size: 1.6rem;
+}
